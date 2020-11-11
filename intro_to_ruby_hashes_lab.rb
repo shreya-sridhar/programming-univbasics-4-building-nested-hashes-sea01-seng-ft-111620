@@ -36,4 +36,5 @@ def monopoly_with_fourth_tier
   hash4[:railroads][:names][:pennsylvania_railroad_railroad]=>{mortgage_value:200}
   hash4[:railroads][:names][:b_and_o_railroad]=>{mortgage_value:400}
   hash4[:railroads][:names][:shortline_railroad]=>{mortgage_value:800}
+  return hash4
 end
