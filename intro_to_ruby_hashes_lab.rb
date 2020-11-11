@@ -21,7 +21,8 @@ def monopoly_with_third_tier
   # they'll guide you in how to modify what you just did to have more
   # complexity.
   hash3=monopoly_with_second_tier()
-  
+  hash3[:railroads][:rent_in_dollars]={:one_piece_owned => 25, :two_pieces_owned => 50, :three_pieces_owned =>100, :four_pieces_owned => 200}
+  hash3[:railroads][:names]={
 end
 
 def monopoly_with_fourth_tier
